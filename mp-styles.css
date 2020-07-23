@@ -188,6 +188,7 @@ section {
   text-decoration: none;
   color: #bdbdbd; /* Light Grey */
   padding: 12px;
+  font-family: sans-serif;
 }
 
 footer {
@@ -256,9 +257,11 @@ footer {
   flex: 100%;
   max-width: 100%;
   padding: 0 4px;
+  text-align: center;
 }
 
 .proj-images-column img{
+  display: block;
   width: 100%;
   margin-top: 8px;
   vertical-align: middle;
@@ -273,6 +276,26 @@ footer {
 .proj-images-column > div > div {
   margin: 4px 1px;
   width: 48%;
+}
+
+.proj-images-column a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+}
+
+.proj-images-column a > p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 25px;
 }
 
 .proj-name > p {
