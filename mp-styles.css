@@ -230,6 +230,7 @@ footer {
   letter-spacing: 5px;
   word-spacing: 11px;
   color: #ffffff; /* White */
+  text-align: center;
 }
 
 .intro-image img{
