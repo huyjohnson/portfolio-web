@@ -4,49 +4,13 @@
 
   <url>
 
-    <loc>https://jacobhu.com</loc>
+    <loc>https://jacobhu.com/</loc>
 
     <lastmod>2020-07-23</lastmod>
 
     <changefreq>weekly</changefreq>
 
     <priority>0.5</priority>
-
-  </url>
-
-  <url>
-
-    <loc>https://jacobhu.com/index</loc>
-
-    <lastmod>2020-07-23</lastmod>
-
-    <changefreq>weekly</changefreq>
-
-    <priority>0.4</priority>
-
-  </url>
-
-  <url>
-
-    <loc>https://jacobhu.com/resume</loc>
-
-    <lastmod>2020-07-23</lastmod>
-
-    <changefreq>monthly</changefreq>
-
-    <priority>0.3</priority>
-
-  </url>
-
-  <url>
-
-    <loc>https://jacobhu.com/about</loc>
-
-    <lastmod>2020-07-23</lastmod>
-
-    <changefreq>monthly</changefreq>
-
-    <priority>0.2</priority>
 
   </url>
 
