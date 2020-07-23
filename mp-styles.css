@@ -242,9 +242,17 @@ footer {
   margin: 25px;
 }
 
-.proj-text h5,
-.proj-text h6{
+.proj-text h2,
+.proj-text h3{
   text-align: center;
+}
+
+.proj-text h2 {
+  font-size: 15px;
+}
+
+.proj-text h3 {
+  font-size: 12px;
 }
 
 .proj-description p{
@@ -402,8 +410,8 @@ footer {
   .proj-text {
     margin: 25px 0 35px 0;
   }
-  .proj-text h5,
-  .proj-text h6{
+  .proj-text h2,
+  .proj-text h3{
     text-align: left;
   }
   .proj-text p{
