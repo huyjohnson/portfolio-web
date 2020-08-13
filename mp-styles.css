@@ -352,6 +352,17 @@ footer {
   font-size: 13px;
 }
 
+.print-pdf {
+  margin: 50px 10px 10px 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.print-pdf > a {
+  text-decoration: none;
+  color: grey;
+}
+
 .media-box {
   display: flex;
   justify-content: space-between;
