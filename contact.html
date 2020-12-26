@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177746470-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177746470-1');
+    </script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="utf-8">
+    <title>Jacob Hu - Contact</title>
+    <link rel='stylesheet' href='mp-styles.css'>
+    <meta name='author' content='Jacob Hu'>
+  </head>
+  <body>
+    <script src='mp-script.js'></script>
+    <div class='container'>
+      <header>
+        <!-- Menu -->
+        <div class='menu'>
+          <a href="index.html">Work</a>
+          <a href="resume.html">Resume</a>
+          <a href="about.html">About</a>
+          <div class='contact-box'>
+            <button onclick='myFunction()' class='contact-btn'>Contact</button>
+            <div id='myDropdown' class='contact-box-content'>
+              <div class='in-contact-btn'>
+                <div>
+                  <a href="https://www.instagram.com/yaohuj" target='_blank'>
+                  <img src='port-images/icon-insta.svg' width='20' height='20'
+                       alt='instagram-icon'>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/yao.hu.1441" target='_blank'>
+                  <img src='port-images/icon-fb.svg' width='20' height='20'
+                       alt='fb-icon'>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/jacobyhu" target='_blank'>
+                  <img src='port-images/icon-link.svg' width='20' height='20'
+                       alt='linkedin-icon'>
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                  <img src='port-images/icon-mail.svg' width='20' height='20'
+                       alt='mail-icon'>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo -->
+        <div class='logo-name'>
+          <a href='about.html'>Jacob Hu</a>
+        </div>
+      </header>
+      <!-- About me -->
+      <section class="form-box">
+        <div class='form-box-main'>
+          <form action='https://formspree.io/f/mpzoojlp' method='POST' enctype='text/plain'>
+            <label>Name:
+              <br><br>
+              <input autocomplete='off' class='input-area' size='50' type='text' name="name" required>
+            </label>
+            <br><br><br><br>
+            <label>Email:
+              <br><br>
+              <input autocomplete='off' class='input-area' size='50' type='email' name="_replyto" required>
+            </label>
+            <br><br><br><br>
+            <label>Comment:
+              <br><br>
+              <textarea autocomplete='off' name="message" placeholder='If you wish to contact me, please fill in the form and submit. Thank you!'></textarea>
+            </label>
+            <br><br><br>
+            <button id='submit-btn' type='submit'>Submit</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+  <!-- Copyright -->
+  <footer>
+    <!-- <small>&copy; 2010-2020 Yao Hu</small> -->
+  </footer>
+</html>
