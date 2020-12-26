@@ -161,7 +161,7 @@ section {
 }
 
 textarea {
-  width: 435px;
+  width: 415px;
   height: 175px;
   background-color:#f3f3f3;
   border:#000000;
@@ -172,7 +172,7 @@ textarea {
 }
 
 #submit-btn {
-  width: 435px;
+  width: 415px;
   height: 2em;
   background-color: rgb(236, 236, 236);
   border: none;
@@ -582,9 +582,13 @@ footer {
     text-align: left;
   }
   textarea {
+    width: 435px;
     height: 250px;
   }
   .input-area {
     text-align: left;
+  }
+  #submit-btn {
+    width: 435px;
   }
 }
