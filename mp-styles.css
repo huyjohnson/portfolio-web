@@ -478,7 +478,6 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 960px;
-    text-wrap: wrap;
   }
   .contact-box-content {
     width: 5%;
