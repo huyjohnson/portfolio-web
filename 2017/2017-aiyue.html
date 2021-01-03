@@ -6,6 +6,12 @@
     <title>Jacob Hu - China Philharmonic Hall</title>
     <link rel='stylesheet' href='../mp-styles.css'>
     <meta name='author' content='Jacob Hu'>
+    <script src='../jquery-3.5.1.min.js'></script>
+    <script>
+      $(function(){
+        $('#content-reel').load('../static/contentreel.html');
+      });
+    </script>
   </head>
   <body>
     <script src='../mp-script.js'></script>
@@ -14,33 +20,33 @@
         <!-- Menu -->
         <div class='menu'>
           <a href="../index.html" class='current-page'>Work</a>
-          <a href="../resume.html">Resume</a>
-          <a href="../about.html">About</a>
+          <a class="icon-hov" href="../resume.html">Resume</a>
+          <a class="icon-hov" href="../about.html">About</a>
           <div class='contact-box'>
             <button onclick='myFunction()' class='contact-btn'>Contact</button>
             <div id='myDropdown' class='contact-box-content'>
               <div class='in-contact-btn'>
                 <div>
                   <a href="https://www.instagram.com/yaohuj" target='_blank'>
-                  <img src='../port-images/icon-insta.svg' width='20' height='20'
+                  <img class='icon-sm' src='../port-images/icon-insta.svg' width='20' height='20'
                        alt='instagram-icon'>
                   </a>
                 </div>
                 <div>
                   <a href="https://www.facebook.com/yao.hu.1441" target='_blank'>
-                  <img src='../port-images/icon-fb.svg' width='20' height='20'
+                  <img class='icon-sm' src='../port-images/icon-fb.svg' width='20' height='20'
                        alt='fb-icon'>
                   </a>
                 </div>
                 <div>
                   <a href="https://www.linkedin.com/in/jacobyhu" target='_blank'>
-                  <img src='../port-images/icon-link.svg' width='20' height='20'
+                  <img class='icon-sm' src='../port-images/icon-link.svg' width='20' height='20'
                        alt='linkedin-icon'>
                   </a>
                 </div>
                 <div>
                   <a href="../contact.html">
-                  <img src='../port-images/icon-mail.svg' width='20' height='20'
+                  <img class='icon-sm' src='../port-images/icon-mail.svg' width='20' height='20'
                        alt='mail-icon'>
                   </a>
                 </div>
@@ -54,16 +60,17 @@
             <h1>Philharmonic Hall</h1>
             <img src="../2017/aiyue-images/aiyue-000.jpg" alt="Aiyue Teaser">
           </div>
-          <p>All images courtesy of MAD Architects</p>
         </div>
-
+        <div id='content-reel'>
+          <!-- content reel goes here -->
+        </div>
       </header>
       <!-- Project Description -->
       <section class='proj-description'>
         <div class='proj-text'>
           <h2><strong>MAD Architects</strong></h2>
           <h2>China Philharmonic Hall</h2>
-          <h3>2015-2017</h3>
+          <h3>2015-2017, all images courtesy of MAD Architects</h3>
           <h3><em>Under Construction, Completion 2022</em></h3>
           <br>
           <p>As part of the conceptual and schematic design team, I worked
@@ -102,19 +109,6 @@
       <!-- Move to top of page icon -->
       <div class='move-up'>
         <a href="#top">Top</a>
-      </div>
-    </div>
-    <!-- Move Project Buttons -->
-    <div class='bottom-container'>
-      <div class='btm-container-left'>
-        <a href='../2017/2017-lucas.html'>
-          <h5>&lt;<br>Lucas Museum - MAD</h5>
-        </a>
-      </div>
-      <div class='btm-container-right'>
-        <a href='../2017/2017-paris.html'>
-          <h5>&gt;<br>Montparnasse Tower - MAD</h5>
-        </a>
       </div>
     </div>
     <!-- Copyright -->

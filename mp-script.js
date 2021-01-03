@@ -17,3 +17,14 @@ window.onclick = function(event) {
     }
   }
 }
+
+// Scroll reels
+function scrollRight() {
+  var el = document.getElementById('content-reel-box');
+  el.scrollLeft += 150;
+}
+
+function scollLeft() {
+  var el = document.getElementById('content-reel-box');
+  el.scrollLeft -= 150;
+}
