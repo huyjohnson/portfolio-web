@@ -18,14 +18,18 @@ header {
   width: 100%;
 }
 
-.menu {
+#menu {
   display: flex;
+  z-index: 6;
+  background-color: white;
+  position: fixed;
   justify-content: space-between;
   width: 100%;
-  margin: 20px 0;
+  margin: 0 0;
+  padding: 5px 0;
 }
 
-.menu a {
+#menu a {
   text-decoration: none;
   color: #bdbdbd; /* Light Grey */
   padding: 4px 20px;
@@ -38,51 +42,15 @@ header {
   background-color: #f6f6f6; /* Very Light Grey */
 }
 
-.contact-btn {
-  color: #bdbdbd; /* Light Grey */
-  padding: 4px 20px;
-  font-size: 16px;
-  border: none;
-  background-color: Transparent;
-  cursor: pointer;
-}
-
 .contact-box {
-  position: relative;
-  display: inline-block;
-  float:none;
-}
-
-.contact-box-content {
-  /* id=myDropdown */
-  display: none;
-  position: fixed;
-  z-index: 1;
-  right: 0;
-  left: 0;
-  top: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  /* give it dimensions */
-  min-height: 25em;
-  width: 75%;
-}
-
-.in-contact-btn {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 2px;
+  justify-content: space-between;
+  width: 65vw;
+  margin: auto;
 }
 
-.in-contact-btn > div {
-  display: flex;
-  flex-direction: row;
-  opacity: 50%;
-}
-
-.show {
-  display:block;
+.icon-sm {
+  opacity: 0.5;
 }
 
 .logo-name {
@@ -164,10 +132,11 @@ section {
   text-align: center;
   padding: 3px;
   font-weight: bold;
+  width: 100vw;
 }
 
 textarea {
-  width: 415px;
+  width: 100vw;
   height: 175px;
   background-color:#f3f3f3;
   border:#000000;
@@ -178,7 +147,7 @@ textarea {
 }
 
 #submit-btn {
-  width: 415px;
+  width: 100vw;
   height: 2em;
   background-color: rgb(236, 236, 236);
   border: none;
@@ -483,6 +452,7 @@ footer {
 .print-pdf > a {
   text-decoration: none;
   color: grey;
+  transition: 0.2s;
 }
 
 .media-box {
@@ -504,14 +474,10 @@ footer {
   text-transform: uppercase;
 }
 
-.bottom-container a{
-  text-decoration: none;
-  color: #bdbdbd; /* Light Grey */
-}
-
 .bottom-about-container a{
   text-decoration: none;
   color: #bdbdbd; /* Light Grey */
+  transition: 0.2s;
 }
 
 .btm-container-left {
@@ -539,13 +505,15 @@ footer {
     width: 960px;
     margin: 0 auto;
   }
-  .menu {
+  #menu {
     display: flex;
+    z-index: 6;
+    margin: 0 0;
+    padding: 5px 0;
+    background-color: white;
+    position: fixed;
     justify-content: space-between;
     width: 960px;
-  }
-  .contact-box-content {
-    width: 5%;
   }
   .logo-name a{
     padding: 25px 50px 0 50px;
@@ -559,6 +527,10 @@ footer {
   .icon-hov:hover {
     border-radius: 2px;
     background-color: #f6f6f6; /* Very Light Grey */
+    color: rgb(121, 121, 121);
+  }
+  .icon-hov:active {
+    color: white;
   }
   .contact-btn {
     transition: 0.2s;
@@ -646,9 +618,8 @@ footer {
   .about-box img{
     width: 62%;
   }
-  .bottom-container {
-    width: 960px;
-    margin: 0 auto;
+  .bottom-about-container a:hover {
+    color: black;
   }
   .btm-container-left,
   .btm-container-right {
@@ -666,12 +637,19 @@ footer {
   }
   .input-area {
     text-align: left;
+    width: 435px;
   }
   #submit-btn {
     width: 435px;
   }
+  .icon-sm {
+    padding: 2px;
+    width: 27px;
+    height: 27px;
+  }
   .icon-sm:hover {
     transform: scale(1.2);
+    opacity: 0.8;
     transition: 0.2s;
     transition-timing-function: ease;
   }
@@ -695,5 +673,11 @@ footer {
   .reel-btn {
     width: 55px;
     visibility: visible;
+  }
+  .contact-box {
+    width: 150px;
+  }
+  .print-pdf a:hover {
+    color: black;
   }
 }

@@ -10,6 +10,7 @@
     <script>
       $(function(){
         $('#content-reel').load('../static/contentreel.html');
+        $('#menu').load('../static/menu-work.html');
       });
     </script>
   </head>
@@ -18,41 +19,8 @@
     <div class='container'>
       <header>
         <!-- Menu -->
-        <div class='menu'>
-          <a href="../index.html" class='current-page'>Work</a>
-          <a class="icon-hov" href="../resume.html">Resume</a>
-          <a class="icon-hov" href="../about.html">About</a>
-          <div class='contact-box'>
-            <button onclick='myFunction()' class='contact-btn'>Contact</button>
-            <div id='myDropdown' class='contact-box-content'>
-              <div class='in-contact-btn'>
-                <div>
-                  <a href="https://www.instagram.com/yaohuj" target='_blank'>
-                  <img class='icon-sm' src='../port-images/icon-insta.svg' width='20' height='20'
-                       alt='instagram-icon'>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.facebook.com/yao.hu.1441" target='_blank'>
-                  <img class='icon-sm' src='../port-images/icon-fb.svg' width='20' height='20'
-                       alt='fb-icon'>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.linkedin.com/in/jacobyhu" target='_blank'>
-                  <img class='icon-sm' src='../port-images/icon-link.svg' width='20' height='20'
-                       alt='linkedin-icon'>
-                  </a>
-                </div>
-                <div>
-                  <a href="../contact.html">
-                  <img class='icon-sm' src='../port-images/icon-mail.svg' width='20' height='20'
-                       alt='mail-icon'>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div id='menu'>
+          <!-- menu-work.html goes here -->
         </div>
         <!-- Project Name -->
         <div class='proj-name'>
@@ -129,10 +97,6 @@
           alt="sound-plan1">
         </div>
       </section>
-      <!-- Move to top of page icon -->
-      <div class='move-up'>
-        <a href="#top">Top</a>
-      </div>
     </div>
     <!-- Copyright -->
     <footer>
