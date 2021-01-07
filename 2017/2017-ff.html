@@ -12,16 +12,22 @@
         $('#content-reel').load('../static/contentreel.html');
         $('#menu').load('../static/menu-work.html');
       });
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#menu");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
     </script>
   </head>
   <body>
     <script src='../mp-script.js'></script>
+    <!-- Menu -->
+    <div id='menu'>
+      <!-- menu-work.html goes here -->
+    </div>
     <div class='container'>
       <header>
-        <!-- Menu -->
-        <div id='menu'>
-          <!-- menu-work.html goes here -->
-        </div>
         <!-- Project Name -->
         <div class='proj-name'>
           <div class='intro-image'>

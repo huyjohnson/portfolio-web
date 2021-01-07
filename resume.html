@@ -20,16 +20,22 @@
       $(function(){
         $('#menu').load('../static/menu.html');
       });
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#menu");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
     </script>
   </head>
   <body>
     <script src='mp-script.js'></script>
+    <!-- Menu -->
+    <div id='menu'>
+      <!-- menu.html goes here -->
+    </div>
     <div class='container'>
       <header>
-        <!-- Menu -->
-        <div id='menu'>
-          <!-- menu.html goes here -->
-        </div>
         <!-- Logo -->
         <div class='logo-name'>
           <a href='about.html'>Jacob Hu</a>
