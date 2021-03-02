@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="utf-8">
+    <title>Jacob Hu - SYNC Construct A</title>
+    <link rel='stylesheet' href='../mp-styles.css'>
+    <meta name='author' content='Jacob Hu'>
+    <script src='../jquery-3.5.1.min.js'></script>
+    <script>
+      $(function(){
+        $('#content-reel').load('../static/contentreel.html');
+        $('#menu').load('../static/menu-work.html');
+      });
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#menu");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <script src='../mp-script.js'></script>
+    <!-- Menu -->
+    <div id='menu'>
+      <!-- menu-work.html goes here -->
+    </div>
+    <div class='container'>
+      <header>
+        <!-- Project Name -->
+        <div class='proj-name'>
+          <div class='intro-image'>
+            <h1>SYNC Construct A</h1>
+            <img src="../2021/synca-images/synca-000.jpg" alt="Sync Teaser">
+          </div>
+        </div>
+      </header>
+      <div id='content-reel'>
+        <!-- content reel goes here -->
+      </div>
+      <!-- Project Description -->
+      <section class='proj-description'>
+        <div class='proj-text'>
+          <h2><strong>Advanced Studio 6 "Everything must scale"</strong></h2>
+          <h2>Columbia GSAPP</h2>
+          <h3>Critic: Michael Bell</h3>
+          <h3>2021</h3>
+          <br>
+          <p>
+            Early sociologists reflected that our society was a self-contained and self-regulating 
+            semiotic system whose elements or actors are defined by relationships with other elements 
+            within that system. To them, the structure of the network they lived in (at the beginning 
+            of the industrial revolution) was imposed by the same actors participating in that system. 
+            Limitations that essentially made them cogs in the wheel of industrialization and 
+            densification. However, within this fate lies moments of synchrony and of the harmonious, 
+            along with the dynamic.
+            My intentions for a future truck stop is in the celebration of the progressive diachrony 
+            found in human made machines and tangentially, in the way those machines interact with 
+            human actors to make our world run the way it might tomorrow.<br><br>
+            We began this semester looking into both an anachronic vision of America’s past, littered 
+            throughout the nation, paired with an analysis of how today’s gas stations and truck stops 
+            work. Looking deeper into the machinations of the pumps, the levers, the shops and the 
+            interactivity, I understood the gas station today as a vernacular consistent throughout 
+            the nation. The tectonics and the instruments are the same, a product inherent to our mass 
+            manufacturing and industrialized market. Those principles are found within the powerful 
+            machines that pull the trailers and allow for cross-country shipments.
+            The gears and pistons that revolutionized the 20th century work in a rhythmic tempo, an 
+            unending procession of progress from point A to B. I was incredibly impressed by the diesel 
+            engine, and through drawing it in diagram, found this mathematic of parts that act in tandem 
+            within the overall machine. <br><br>
+            Now transitioning to our site, the Tahoe-Reno Industrial Center. The only access points to the 
+            main highway I-80 are two interchanges spread about 4 miles apart. With the development of an 
+            increasing number of warehouses and manufacturing plants in this industrial center, the 
+            congestion becomes increasingly severe along those bottlenecks.
+            So it’s this main interchange that I believe can be a testing ground for a new prototype of the 
+            truck stop.<br><br>
+            The SYNC construct intends to be a 1500 ft long truck stop that is implanted onto the 
+            continuum of the highway system. The construct forms a loop, with parking platforms spaced 
+            along the central void where packages are transported from the industrial center through the 
+            use of elevated maglev rails.
+            Trucks are expected to offload and load within this construct, which acts as both a nexus for the 
+            warehouses beyond as well as the final destination for incoming trucks. The construct contains 3 
+            levels. The first 2 levels act as truck stops for loading and reloading, while the top level is the 
+            “promenade” where trucks either go for maintenance or recharging. The promenade also holds numerous 
+            amenities and entertainment for truck drivers and visitors.
+            The platforms rotate along rails depending on where the truck needs to go, while the maglev shuttles 
+            bring the packages and drop them off directly into the trailer. The wind turbines at the center take 
+            advantage of aerodynamic forces created by passing shuttles, using the rushing wind to power themselves 
+            and other minor electrical equipment.
+            As the current infrastructure is already nearing max capacity, the SYNC construct is to be a new 
+            prototype for a more efficient logistical system that can achieve levels of scale suitable for the 
+            Tahoe-Reno Industrial Center.
+            Ultimately, the construct is a machine that merges synchrony with procession, bridging the 
+            structuralist impression of the static with the dynamism and rhythm of an efficient order.
+            </p>
+        </div>
+      </section>
+      <!-- Project Images -->
+      <section class='proj-images'>
+        <div class='proj-images-column'>
+          <img src='../2021/synca-images/synca-gif001.gif' style="width:100%"
+          alt="synca-gif001">
+          <img src='../2021/synca-images/synca-003.jpg' style="width:100%"
+          alt="synca-003">
+          <img src='../2021/synca-images/synca-001.jpg' style="width:100%"
+          alt="synca-001">
+        </div>
+        <div class='proj-images-column'>
+          <img src='../2021/synca-images/synca-000.jpg' style="width:100%"
+          alt="synca-000">
+          <img src='../2021/synca-images/synca-002.jpg' style="width:100%"
+          alt="synca-002">
+          <img src='../2021/synca-images/synca-plan001.jpg' style="width:100%"
+          alt="synca-plan001">
+        </div>
+      </section>
+    </div>
+    <!-- Copyright -->
+    <footer>
+      <!-- <small>&copy; 2010-2020 Yao Hu</small> -->
+    </footer>
+  </body>
+</html>
