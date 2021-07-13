@@ -435,6 +435,10 @@ footer {
   font-weight: normal;
 }
 
+.resume-box {
+  text-align: center;
+}
+
 .resume-box-sub {
   display: flex;
   flex-direction: column;
@@ -444,6 +448,7 @@ footer {
 .resume-box-left p,
 .resume-box-right p{
   font-size: 13px;
+  text-align: center;
 }
 
 .resume-box ul{
@@ -608,6 +613,9 @@ footer {
     max-width: 50%;
   }
   .resume-box p{
+    text-align: left;
+  }
+  .resume-box {
     text-align: left;
   }
   .resume-box-left {
